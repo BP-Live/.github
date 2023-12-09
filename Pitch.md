@@ -63,17 +63,17 @@ Our priority is to enhance the versatility of our data sources. We plan to regul
 
 ### Problem definition
 
-Good afternoon! We are team Budapest Live. In Budapest around a stunning 3000 retail spaces lay vacant, mirroring a global urban challenge. These unutilized spaces represent a loss for the city's economy, a missed opportunity for local entrepreneurs and makes people travel more than they should to get their needs met which results in more pollution and traffic. We've developed an app which tackles this issue by revitalizing these spaces, bringing Budapest closer to being an efficient 15-minute city.
+Good afternoon! We are team Budapest Live. The unutilized business premises represent a loss for the Budapest's economy, a missed opportunity for local entrepreneurs and makes people travel more than they should to get their needs met which results in more pollution and traffic. We've developed an app which tackles this issue by revitalizing these spaces, bringing Budapest closer to being an efficient 15-minute city.
 
 ### Solution, demo
 
-Our solution is a service is targeted towards business owners. It helps to find the optimal business premises for them. It is optimized for mobile, therefore we encourage you to try it out on the link above. On the landing page the user logs in using Google, gives location access and specifies the needs of their business including a location heuristic, which can be just "nearby" as well. After filling out the form, the user is presented with a map showing competitors in the area, recommended vacant business premises and a heatmap of the availability of the kind of service. The user gets a list of pros and cons of the area as well, which incentivizes them to choose an area where that kind of service does not exist yet.
+Our solution is a service is targeted towards business owners. It helps to find the optimal business premises for them. On the landing page the user logs in using Google, gives location access and specifies the needs of their business including a location heuristic, which can be just "nearby" as well. After filling out the form, the user is presented with a map showing competitors in the area, recommended vacant business premises and a heatmap of the availability of the kind of service. The user gets a list of pros and cons of the area as well, which incentivizes them to choose an area where that kind of service does not exist yet.
 
 ### Technology, AI
 
 The technological backbone of our solution is built with FastAPI and is hosted by Microsoft Azure, withstanding high traffic through auto-scaling. The frontend is built using Next.js. 
 
-We use OpenAI's GPT-4 Turbo model to communicate the business needs and insights with the user through natural language. We used prompt engineering to supply it with data regarding the current location of the user and nearby businesses with similar profiles. We get businesses with similar profile using location and type based clustering, currently returning three similar businesses in the area, due to wanting to enable real time responses from the server.
+We use OpenAI's GPT-4 Turbo model to communicate the business needs and insights with the user through natural language. We used prompt engineering to supply it with data regarding the current location of the user and nearby businesses with similar profiles. We categorize businesses using location and type based clustering using the point of interests dataset.
 
 ### Feasability - business model
 
@@ -82,3 +82,5 @@ We created this service mainly for public benefit. Therefore, we plan to have a 
 ### Feasability - data sourcing
 
 We use the Google Maps API to display the map to the user which is dynamically updated in time, however about the property occupancy and the points of interest we only have static data, and only for the 8th district and Budapest respectively. To make our service applicable in any city, we will have to work together with the local governments to get access to these datasets.
+
+Our web app is optimized for mobile, therefore we encourage you to try it out on the link above. Thanks for your attention!

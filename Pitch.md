@@ -61,25 +61,25 @@ Our priority is to enhance the versatility of our data sources. We plan to regul
 
 > **Value proposition:** Helping business owners to occupy vacant premises, pushing Budapest to become a 15-minute city.
 
-### Problem definition
+### Problem definition *(Ádám)*
 
 Good afternoon! We are team Budapest Live. The unutilized business premises represent a loss for the Budapest's economy, a missed opportunity for local entrepreneurs and makes people travel more than they should to get their needs met which results in more pollution and traffic. We've developed an app which tackles this issue by revitalizing these spaces, bringing Budapest closer to being an efficient 15-minute city.
 
-### Solution, demo
+### Solution, demo *(Dénes)*
 
 Our solution is a service is targeted towards business owners. It helps to find the optimal business premises for them. On the landing page the user logs in using Google, gives location access and specifies the needs of their business including a location heuristic, which can be just "nearby" as well. After filling out the form, the user is presented with a map showing competitors in the area, recommended vacant business premises and a heatmap of the availability of the kind of service. The user gets a list of pros and cons of the area as well, which incentivizes them to choose an area where that kind of service does not exist yet.
 
-### Technology, AI
+### Technology, AI *(Ádám)*
 
 The technological backbone of our solution is built with FastAPI and is hosted by Microsoft Azure, withstanding high traffic through auto-scaling. The frontend is built using Next.js. 
 
 We use OpenAI's GPT-4 Turbo model to communicate the business needs and insights with the user through natural language. We used prompt engineering to supply it with data regarding the current location of the user and nearby businesses with similar profiles. We categorize businesses using location and type based clustering using the point of interests dataset.
 
-### Feasability - business model
+### Feasability - business model *(Dénes)*
 
 We created this service mainly for public benefit. Therefore, we plan to have a free tier to reach our social and environmental goals and convince users initially. In order to make our business sustainable, we plan to monetize it by charging premium for providing more detailed insights and automatic financial analysis, as we suspect that this information would be more valuable for large corporations than the price they would have to pay for our service. 
 
-### Feasability - data sourcing
+### Feasability - data sourcing *(Ádám)*
 
 We use the Google Maps API to display the map to the user which is dynamically updated in time, however about the property occupancy and the points of interest we only have static data, and only for the 8th district and Budapest respectively. To make our service applicable in any city, we will have to work together with the local governments to get access to these datasets.
 

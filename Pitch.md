@@ -67,7 +67,7 @@ Good afternoon! We are team Budapest Live. The unutilized business premises repr
 
 ### Solution, demo *(Dénes)*
 
-Our solution is a service is targeted towards business owners. It helps to find the optimal business premises for them. On the landing page the user logs in using Google, gives location access and specifies the needs of their business including a location heuristic, which can be just "nearby" as well. After filling out the form, the user is presented with a map showing competitors in the area, recommended vacant business premises and a heatmap of the availability of the kind of service. The user gets a list of pros and cons of the area as well, which incentivizes them to choose an area where that kind of service does not exist yet.
+Our solution is a service is targeted towards business owners. It helps to find the optimal business premises for them. On the landing page the user logs in using Google, gives location access and specifies the needs of their business including a location heuristic, which can be just "nearby" as well. It's just natural language. After filling out the form, the user is presented with a map showing competitors in the area, recommended vacant business premises and a heatmap of the availability of the kind of service. The user gets a list of pros and cons of the area as well, which incentivizes them to choose an area where that kind of service does not exist yet.
 
 ### Technology, AI *(Ádám)*
 

@@ -1,0 +1,30 @@
+# Pitch
+
+- problem statement
+    - creating 15 minute cities
+    - empty business premises
+- solution
+    - what is it?
+        - service for entrepreneurs to find their optimal business premises
+    - why does it help?
+        - recommends vacant business premises, helps the city to fill them up
+        - shows the amount of competitors in the area, incentivizing the user to choose an area where that kind of service does not exist yet
+- feasability
+    - demo
+        - tech stack
+            - next.js frontend
+                - mobile-optimized - encourage the audience to try it!
+            - fastapi backend
+                - auto-scaling deployment on azure - high capacity
+            - google maps api
+        - how is AI utilized? (this is worth like 35%)
+            - openai gpt 4 api
+                - communicating needs, suggestions with user using natural language
+            - other insights
+                - pros/cons
+                - business name suggestion
+    - data sourcing
+        - google maps api
+        - bkk api?
+        - future...
+    - business model (future)
